@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com fontes</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
         body {
-            font-family: Arial, Helvetica, sans-serif;
+            
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* font-family: Arial, Helvetica, sans-serif; */
              /* 
             Medidas Absolutas
             cm, mm, in, px, pt, pc        recomendação oficial de uso = px
@@ -18,11 +22,28 @@
 
             */
             font-size: 1em;
+            font-weight: bold;
+            /* lighter normal bold bolder*/
+            /* font-style: italic; */
+            /* text-decoration: underline; */
         }
 
-        h1, h2 {
-            font-family: 'Times New Roman', Times, serif;
-           
+        h1  {
+            /* font-family: 'Times New Roman', Times, serif; 
+            font-family: 'Work Sans', 'sans-serif';
+            font-weight: bold;
+            font-size: 3em;
+            font-style: italic; */
+
+            /* shorthand 
+            - font-style -> font-weight -> font-size -> font-family */
+
+            font: italic bolder 3em 'Work Sans', 'sans-serif';
+
+        }
+
+        h2 {
+            font: bold 3em 'Work Sans', 'sans-serif';
         }
     </style>
 </head>
