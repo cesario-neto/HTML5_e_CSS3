@@ -6,20 +6,37 @@
 
 
 body {
-    background-color: rgb(205, 255, 203);
+    background-color: #9BD1A1;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: rgb(4, 109, 0);
+    color: #3C523F
 }
 
 #principal {
     text-align: center;
-    background-color: green;
+    background-color: #3C523F;
     color: white;
 }
 
 h2 {
-    color: rgb(51, 77, 49);
+    color: #6C9170;
+}
+
+.basico {
+    color: rgb(85, 141, 0);
+}
+
+.intermediario {
+    color: rgba(224, 224, 24, 0.966);
+}
+
+.avancado {
+    color: rgba(209, 24, 24, 0.76);
+}
+
+.destaque {
+    background-color: rgba(121, 121, 44, 0.445);
+    
 }
